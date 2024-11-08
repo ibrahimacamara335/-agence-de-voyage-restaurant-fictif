@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Fictif</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: aliceblue;">
+
+    <!-- Section en-tête -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#" style="color: white;">Les Délices du Chef</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home" style="color: white;">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu" style="color: white;">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" style="color: white;">À propos de nous</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" style="color: white;">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section héros -->
+    <section class="hero">
+        <h1>Bienvenue chez Les Délices du Chef</h1>
+        <a class="btn btn-primary" href="#menu">Voir le Menu</a>
+    </section>
+
+    <!-- Section menu -->
+    <section id="menu" class="container mt-5">
+        <h2 class="text-center">Notre Menu</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/504b32_85c178d1e3dc4bb4a6032d81e7bfffc5~mv2.jpg/v1/fill/w_740,h_494,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/504b32_85c178d1e3dc4bb4a6032d81e7bfffc5~mv2.jpg" class="card-img-top" alt="Plat 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Poulet Yassa</h5>
+                        <p class="card-text">Plat sénégalais à base de poulet mariné dans du citron, des oignons, de l'ail et du poivre, puis mijoté jusqu'à obtenir une sauce épaisse, souvent servi avec du riz blanc.
+
+                        </p>
+                        <p class="card-price">3500CFA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.750g.com/images/1200-630/da74d6ac78afe110ab2c3209a10718d0/couscous-royal-rapide.png" class="card-img-top" alt="Plat 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Couscous royal</h5>
+                        <p class="card-text">Un plat traditionnel d'Afrique du Nord, composé de semoule fine, accompagné d'un mélange de légumes, de viandes (agneau, poulet, merguez), et de pois chiches, le tout arrosé d'une sauce parfumée aux épices.
+
+                        </p>
+                        <p class="card-price">4500CFA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://maliactu.net/wp-content/uploads/2024/06/restaurant-akwaba-36.jpg" class="card-img-top" alt="Plat 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Attiéké</h5>
+                        <p class="card-text">L'attiéké est un plat traditionnel ivoirien fait à base de manioc fermenté et râpé. Servi en accompagnement de poisson grillé et  de légumes,</p>
+                        <p class="card-price">3500CFA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos de nous -->
+    <section id="about" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="hero1.jpg" class="img-fluid" alt="À propos de nous">
+            </div>
+            <div class="col-md-6">
+                <h2>À propos de nous</h2>
+                <p>Bienvenue chez  Les Délices du Chef, un lieu où la passion pour la cuisine se marie avec l'amour de la convivialité. Depuis notre ouverture en 2022, nous nous efforçons de créer une expérience culinaire unique, en mettant en avant des ingrédients frais, locaux et de qualité.</p>
+                <strong>Nos valeurs</strong>
+                <p>Chez Les Délices du Chef, nous croyons en la puissance des repas partagés pour créer des souvenirs inoubliables. C'est pourquoi nous plaçons la qualité, la convivialité et l'authenticité au cœur de notre philosophie. Chaque plat est préparé avec soin, en respectant les traditions culinaires tout en y ajoutant une touche de modernité. Nous nous engageons à offrir un service chaleureux et personnalisé, afin que chaque client se sente comme chez lui.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="container mt-5">
+        <h2 style="text-align: center;">Contactez-nous</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" class="form-control" id="name" placeholder="Votre nom">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Votre email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5">
+        <p>&copy; 2024 chez Les Délices du Chef. Tous droits réservés.</p>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

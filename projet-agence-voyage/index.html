@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence de Voyage</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body style="background-color: #e6e6e6;">
+
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#" style="color: white;">Destinations Rêvées</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#" style="color: white;">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" style="color: white;">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" style="color: white;">Circuits</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" style="color: white;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section héros -->
+    <div class="hero">
+        <div>
+            <h1>Découvrez le Monde</h1>
+            <p style="margin-bottom: 180px;">Des expériences de voyage inoubliables vous attendent.</p>
+            <a href="#" class="btn btn-primary">Explorez maintenant</a>
+        </div>
+    </div>
+
+    <!-- Section Destinations -->
+    <div class="container my-5">
+        <h2 style="text-align: center;">Nos Destinations</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/4383753/pexels-photo-4383753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Paris, France</h5>
+                        <p class="card-text">Paris, la capitale de la France, est surnommée la "Ville Lumière" et est célèbre pour ses monuments emblématiques comme la Tour Eiffel, le Louvre et la cathédrale Notre-Dame. Avec ses charmants cafés, ses boutiques de mode et ses jardins, Paris offre une ambiance romantique et artistique.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/3757136/pexels-photo-3757136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Destination 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Barcelona, Espagne</h5>
+                        <p class="card-text">Barcelone, avec son architecture unique de Gaudí, comme la Sagrada Família et le parc Güell, est une ville vibrante et dynamique. Les plages ensoleillées, les marchés animés comme La Boqueria et le quartier gothique font de Barcelone une destination idéale pour les amoureux de la culture et du soleil.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/13978897/pexels-photo-13978897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Destination 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Rome, Italie</h5>
+                        <p class="card-text">Rome, la capitale italienne, est un véritable musée à ciel ouvert. Avec ses monuments emblématiques comme le Colisée, le Forum romain et la basilique Saint-Pierre, la ville regorge d'histoire. Ne manquez pas de déguster la cuisine locale, comme les pâtes carbonara et la pizza romaine, tout en flânant dans ses charmantes ruelles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Voyages -->
+    <div class="container my-5">
+        <h2>Nos Voyages</h2>
+        <div class="accordion" id="voyagesAccordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Circuit en Toscane, Italie
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#voyagesAccordion">
+                    <div class="card-body">
+                        Partez à la découverte des paysages pittoresques de la Toscane. Ce circuit inclut des visites des villes historiques comme Florence et Sienne, des dégustations de vins dans les célèbres vignobles de Chianti, et des balades à travers des champs de tournesols et des collines vallonnées. Idéal pour les amateurs d'art, de culture et de gastronomie.
+                        <a href="#" class="btn btn-secondary">Voir les détails</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Aventure en Islande
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#voyagesAccordion">
+                    <div class="card-body">
+                        Vivez une aventure inoubliable en Islande, où vous pourrez explorer des paysages spectaculaires. Le voyage comprend des visites de chutes d'eau majestueuses, de geysers, et de glaciers, ainsi que l'observation des aurores boréales en hiver. Profitez de baignades relaxantes dans des sources chaudes naturelles et découvrez la culture islandaise à Reykjavik.
+                        <a href="#" class="btn btn-secondary">Voir les détails</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Escapade en Espagne : Andalousie
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#voyagesAccordion">
+                    <div class="card-body">
+                        Découvrez l'Andalousie, une région riche en histoire et en culture. Ce voyage inclut des visites de villes emblématiques comme Séville, Grenade et Cordoue, avec des arrêts pour admirer l'architecture mauresque, déguster des tapas, et assister à des spectacles de flamenco. Une immersion dans l'ambiance ensoleillée et festive du sud de l'Espagne.  
+                        <a href="#" class="btn btn-secondary">Voir les détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulaire de contact -->
+    <div class="container my-5">
+        <h2>Contactez-nous</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" class="form-control" id="name" placeholder="Votre nom">
+            </div>
+            <div class="form-group">
+                <label for="email">Adresse électronique</label>
+                <input type="email" class="form-control" id="email" placeholder="Votre adresse électronique">
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination d'intérêt</label>
+                <input type="text" class="form-control" id="destination" placeholder="Destination souhaitée">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="text-center py-3" style="background-color: #38393d;">
+        <p style="color: white;">&copy; 2024 Destinations Rêvées. Tous droits réservés.</p>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

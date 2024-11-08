@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-color: red;
+}
+
+header{
+  background-color: #150700;
+  color: white;
+}
+
+.hero {
+  background-image: url('../hero.jpg');
+  height: 60vh;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
